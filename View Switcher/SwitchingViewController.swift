@@ -9,6 +9,9 @@
 import UIKit
 
 class SwitchingViewController: UIViewController {
+    
+    private var blueViewController: BlueViewController!
+    private var yellowViewController: YellowViewController!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,5 +34,7 @@ class SwitchingViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    @IBAction func switchViews(sender: UIBarButtonItem) {
+    }
 }
